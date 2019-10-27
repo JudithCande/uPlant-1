@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactMapGL, { Marker } from 'react-map-gl';
 import parques from '../parques';
 
-export default class Mapa extends Component{
+export default class MapaPlanta extends Component{
 //Basicamente este estado sirve para indicarle en que posicion va a empezar el mapa en este caso Mty.
   state = {
     viewport: {
